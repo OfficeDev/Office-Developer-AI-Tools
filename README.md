@@ -12,7 +12,7 @@ Each prompt is in a folder that includes a file of instructions for the human us
 
 | Prompt | Purpose | Required Abilities | Supported By | Not Supported By |
 |--------|---------|-------------------|--------------|-----------------|
-| [First-run Precheck](https://github.com/OfficeDev/Office-Developer-AI-Tools/tree/main/prompts/First-Run-Precheck) | Issues a report about whether an Office Add-in contains a first-run experience as required by Microsoft Marketplace. | * Open a zip file and read the files in it.<br>* Obtain files from web URLs and read them.<br>* Write a file and save it to the local computer. | GitHub Copilot CLI | Copilot chat interfaces |
+| [First-run Precheck](https://github.com/OfficeDev/Office-Developer-AI-Tools/tree/main/prompts/First-Run-Precheck) | Issues a report about whether an Office Add-in contains a first-run experience as required by Microsoft Marketplace. | <Ul><li>Open a zip file and read the files in it.</li><li>Obtain files from web URLs and read them.</li><li>Write a file and save it to the local computer.</li></ul> | GitHub Copilot CLI | Copilot chat interfaces |
 
 
 
