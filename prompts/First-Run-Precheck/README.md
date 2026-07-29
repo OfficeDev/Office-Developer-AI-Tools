@@ -48,6 +48,4 @@ Version  | Date | Comments
 ---------| -----| --------
 1.0  | July 29th 2026 | Initial release
 
-> Update the image below to use a unique name. This is used to track how many anonymous views there are to the sample.
-
 <img src="https://pnptelemetry.azurewebsites.net/pnp-officeaddins/prompts/First-Run-Precheck" />
