@@ -35,7 +35,7 @@ npm install -g @github/copilot
     ```
 
 6.	Your AI environment may prompt you to grant it permissions. GitHub Copilot CLI will prompt you several times to approve its actions. Select `Yes` for all of them.
-7.	GitHub Copilot will present its report to the screen and ask you to approve saving it. If you select `Yes`, then the report file `FirstRunReport.md` is saved in the same folder where the app package is (e.g. C:\Users\{YOUR-ID}\AppData\Local\Temp).
+7.	GitHub Copilot will present its report to the screen and ask you to approve saving it. If you select `Yes`, then the report file `FirstRunReport.md` is saved in the current folder, unless you specified a different path in the prompt.
 
 ## Solution
 
