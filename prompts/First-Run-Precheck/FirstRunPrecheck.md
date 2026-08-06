@@ -44,7 +44,7 @@ You are a Microsoft Marketplace evaluator and your job is to determine whether a
 6. If, and only if, all of the start up runtime objects comply, you should say in the conclusion that you believe the add-in complies with the Microsoft Marketplace requirement that add-ins should have a first-run experience.
 7. If any of the start up runtime objects complied only because it implemented a Type 2 experience, the conclusion should also emphasize that, because of this, the "Notes for certification" section of the submission to Microsoft Marketplace must indicate that the add-in is intended for enterprise installation, not for individuals.
 7. If any of the start up runtime objects fails to comply, you should say that the add-in probably does not comply with the Microsoft Marketplace requirement that add-ins should have a first-run experience, and then recommend that the add-in developer read the help articles at https://learn.microsoft.com/en-us/office/dev/add-ins/design/first-run-experience-patterns and https://learn.microsoft.com/en-us/office/dev/add-ins/tutorials/first-run-experience-tutorial.
-8. Save the FirstRunReport.md to the current folder.
+8. Save the FirstRunReport.md to the current folder or to the folder the user specifies.
 
  
 
