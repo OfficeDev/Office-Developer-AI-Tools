@@ -1,8 +1,8 @@
 # Office Developer AI Tools
 
-This repo holds prompts, skills, agents, actions, and other tools that can be used in GitHub Copilot and other AI applications to aid in developing add-ins and other extensions of Office.
+This repo holds extended prompts, skills, agents, actions, and other tools that can be used in GitHub Copilot and other AI applications to aid in developing add-ins and other extensions of Office.
 
-## Prompts
+## Extended Prompts
 
 **Note**: The prompts in this repo are substantial. For some helpful, brief prompts, see [Office Add-ins prompts for GitHub Copilot](https://learn.microsoft.com/office/dev/add-ins/resources/resources-github-copilot-prompt-library).
 
