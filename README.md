@@ -6,9 +6,9 @@ This repo holds extended prompts, skills, agents, actions, and other tools that 
 
 **Note**: The prompts in this repo are substantial. For some helpful, brief prompts, see [Office Add-ins prompts for GitHub Copilot](https://learn.microsoft.com/office/dev/add-ins/resources/resources-github-copilot-prompt-library).
 
-The prompts listed in the table below are tested with one or more of Copilot, Microsoft 365 Copilot, or GitHub Copilot, except where specified otherwise. They should work also in any AI tool that supports the required abilities listed.
+The extended prompts listed in the table below are tested with one or more of Copilot, Microsoft 365 Copilot, or GitHub Copilot, except where specified otherwise. They should work also in any AI tool that supports the required abilities listed.
 
-Each prompt is in a folder that includes a file of instructions for the human user of the prompt, as well as one or more other files that are consumed by the AI tool.
+Each extended prompt file is in a folder that includes a file of instructions for the human user of the prompt, as well as one or more other files that are consumed by the AI tool.
 
 | Prompt | Purpose | Required Abilities | Supported By | Not Supported By |
 |--------|---------|-------------------|--------------|-----------------|
