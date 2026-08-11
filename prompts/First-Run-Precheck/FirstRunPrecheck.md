@@ -30,7 +30,7 @@ You are a Microsoft Marketplace evaluator and your job is to determine whether a
 
 ### Analysis Workflow
 
-1. Obtain the URL of the object's start up HTML page, and read the start up page.
+1. Obtain the URL of the object's start up HTML page from the manifest, and read the start up page. Do not look in the app package zip file for the start up HTML page.
 2. Determine if the start up page has a first-run experience of either type. Consider not only the content of the page but also whether there are HTML elements with `id` or `name` attributes that contain the string "first-run" or "FRE". Check also for terms in with a similar meaning, such as "first-time", "new-user", or "FTUE". Be sure the user experiences the UI without having to sign up or sign in.
 3. If the start up page does not have a first-run experience, read the start-up code page of the runtime object, and determine if the code that runs after `Office.onReady` completes, or when `Office.initialize` runs, injects or make visible, any kind of first-run UI, of either type, to the page.
 
