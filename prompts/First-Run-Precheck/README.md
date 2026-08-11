@@ -26,7 +26,9 @@ npm install -g @github/copilot
 2.	Start the add-in's web application. It can be hosted on localhost or remotely. If you start it with the F5 key in Microsoft 365 Agent Toolkit, or by running `npm start` in an ATK terminal, a command prompt, a bash shell, or Mac Terminial, then the next step is done for you.
 3.	Use a ZIP utility to zip up the manifest and other app package files into an app package file. 
 4.	Start your AI environment or interface. For GitHub Copilot CLI, open a Command Prompt, terminal, or bash shell, and run `copilot`. 
-5.	When GitHub Copilot CLI (or preferred AI environment) has finished starting up, prompt it to use the `FirstRunPrecheck.md` to examine the add-in for compliance. You’ll need to provide the paths to both the instruction file and the app package zip file. (If you’re sideloading an add-in created with Microsoft 365 Agent Toolkit or with Yo Office, the app package file will be at `C:\Users\{YOUR-ID}\AppData\Local\Temp\manifest.zip`.)
+5.	When GitHub Copilot CLI (or preferred AI environment) has finished starting up, prompt it to use the `FirstRunPrecheck.md` to examine the add-in for compliance. You’ll need to provide the paths to both the instruction file and the app package zip file.
+
+    > NOTE: If you’re sideloading an add-in created with Microsoft 365 Agent Toolkit or with Yo Office on a Windows computer, the app package file will be at `C:\Users\{YOUR-ID}\AppData\Local\Temp\manifest.zip`. 
 
     The following is an example:
 
@@ -34,8 +36,8 @@ npm install -g @github/copilot
     Using the instructions in the file C:\Office-Developer-AI-Tools\prompts\First-Run-Precheck\FirstRunPrecheck.md, evaluate whether the Office add-in in the package file C:\Users\{YOUR-ID}\AppData\Local\Temp\manifest.zip complies with the requirement that it have a first-run experience.
     ```
 
-6.	Your AI environment may prompt you to grant it permissions. GitHub Copilot CLI will prompt you several times to approve its actions. Select `Yes` for all of them.
-7.	GitHub Copilot will present its report to the screen and ask you to approve saving it. If you select `Yes`, then the report file `FirstRunReport.md` is saved in the current folder, unless you specified a different path in the prompt.
+7.	Your AI environment may prompt you to grant it permissions. GitHub Copilot CLI will prompt you several times to approve its actions. Select `Yes` for all of them.
+8.	GitHub Copilot will present its report to the screen and ask you to approve saving it. If you select `Yes`, then the report file `FirstRunReport.md` is saved in the current folder, unless you specified a different path in the prompt.
 
 ## Solution
 
