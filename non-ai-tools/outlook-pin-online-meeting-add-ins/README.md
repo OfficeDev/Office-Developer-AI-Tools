@@ -11,9 +11,9 @@ The script includes the Zoom and Cisco Webex add-ins as examples. It doesn't ins
 
 ## Prerequisites
 
-- Outlook on Mac
-- Online meeting add-in must be installed on the target user's mailbox
-- If you're using an account or management agent to run the script, ensure that the agent can use `sudo` to run commands as the signed-in user.
+- Outlook on Mac.
+- Online meeting add-in must be installed on the target user's mailbox.
+- If you're using an account or management agent to run the script, the agent must be able to use `sudo` to run commands as the signed-in user.
 
 The script uses macOS utilities included with the operating system, including Zsh, `scutil`, `dscl`, and `PlistBuddy`. No additional packages are required.
 
