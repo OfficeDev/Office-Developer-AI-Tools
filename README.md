@@ -1,6 +1,6 @@
 # Office Developer AI Tools
 
-This repo holds extended prompts, skills, agents, actions, and other tools that can be used in GitHub Copilot and other AI applications to aid in developing add-ins and other extensions of Office.
+This repo holds tools for developers of add-ins and other extensions of Office. Some are non-AI scripts. Others are AI tools, such as extended prompts, skills, agents, and actions that can be used in GitHub Copilot and other AI applications .
 
 ## Extended Prompts
 
@@ -12,7 +12,11 @@ Each extended prompt file is in a folder that includes a file of instructions fo
 
 | Prompt | Purpose | Required Abilities | Supported By | Not Supported By |
 |--------|---------|-------------------|--------------|-----------------|
-| [First-run Precheck](https://github.com/OfficeDev/Office-Developer-AI-Tools/tree/main/prompts/First-Run-Precheck) | Issues a report about whether an Office Add-in contains a first-run experience as required by Microsoft Marketplace. | <Ul><li>Open a zip file and read the files in it.</li><li>Obtain files from web URLs and read them.</li><li>Write a file and save it to the local computer.</li></ul> | GitHub Copilot chat and CLI | Windows Copilot and Microsoft 365 chat interfaces |
+| [First-run Precheck](https://github.com/OfficeDev/Office-Developer-Tools/tree/main/prompts/First-Run-Precheck) | Issues a report about whether an Office Add-in contains a first-run experience as required by Microsoft Marketplace. | <Ul><li>Open a zip file and read the files in it.</li><li>Obtain files from web URLs and read them.</li><li>Write a file and save it to the local computer.</li></ul> | GitHub Copilot chat and CLI | Windows Copilot and Microsoft 365 chat interfaces |
 
+## Scripts 
 
+| Script | Purpose | 
+|--------|---------|
+| [Pin online meeting add-ins to the ribbon](https://github.com/OfficeDev/Office-Developer-Tools/tree/main/non-ai-tools/outlook-pin-online-meeting-add-ins) | This script pins online meeting add-ins to the ribbon in Outlook on Mac.|
 

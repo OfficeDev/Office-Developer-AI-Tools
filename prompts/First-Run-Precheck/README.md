@@ -22,7 +22,7 @@ npm install -g @github/copilot
 
 ## Use the tool
 
-1.	Clone or download the Office-Developer-AI-Tools repo, or download just the prompt file, `FirstRunPrecheck.md`.
+1.	Clone or download the Office-Developer-Tools repo, or download just the prompt file, `FirstRunPrecheck.md`.
 2.	Start the add-in's web application. It can be hosted on localhost or remotely. If you start it with the F5 key in Microsoft 365 Agent Toolkit, or by running `npm start` in an ATK terminal, a command prompt, a bash shell, or Mac Terminial, then the next step is done for you.
 3.	Use a ZIP utility to zip up the manifest and other app package files into an app package file. 
 4.	Start your AI environment or interface. For GitHub Copilot chat, open **View** -> **Chat** in Visual Studio Code. For GitHub Copilot CLI, open a Command Prompt, terminal, or bash shell, and run `copilot`.
@@ -33,7 +33,7 @@ npm install -g @github/copilot
     The following is an example:
 
     ```text
-    Using the instructions in the file C:\Office-Developer-AI-Tools\prompts\First-Run-Precheck\FirstRunPrecheck.md, evaluate whether the Office add-in in the package file C:\Users\{YOUR-ID}\AppData\Local\Temp\manifest.zip complies with the requirement that it have a first-run experience.
+    Using the instructions in the file C:\Office-Developer-Tools\prompts\First-Run-Precheck\FirstRunPrecheck.md, evaluate whether the Office add-in in the package file C:\Users\{YOUR-ID}\AppData\Local\Temp\manifest.zip complies with the requirement that it have a first-run experience.
     ```
 
 7.	Your AI environment may prompt you to grant it permissions. GitHub Copilot prompts you several times to approve its actions. Select `Yes\Allow` for all of them.
